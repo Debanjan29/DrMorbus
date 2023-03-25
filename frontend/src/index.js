@@ -10,6 +10,10 @@ import "./index.css";
 import Diss from "./routes/diss";
 import Test from "./routes/check/test";
 import Root from "./routes/root";
+import PageO from "./routes/PageO";
+import Test1 from "./routes/check/test1";
+import Testnew from "./routes/check/testnew";
+
 
 const router = createBrowserRouter([
   {
@@ -18,13 +22,29 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path:"",
+        element:<PageO/>,
+
+      },
+      {
         path: "disease/:diseaseId",
         element: <Diss/>,        
       },
+      
       {
         path:"test/",
-        element:<Test />,
+        element:<Testnew />,
+      },
+
+      {
+        path:"Test1",
+        element:<Test1/>,
+      },
+      {
+        path:"Testnew",
+        element:<Testnew/>,//Last edited Test Now Pg
       }
+
     ],
   },
 ]);

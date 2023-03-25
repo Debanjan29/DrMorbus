@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway&family=Roboto&display=swap');
+
+  :root {  
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    --black:rgb(0,0,0);
+    --grey:rgb(64, 64, 64);
+    --grey1:rgb(70, 70, 79);
+    --green:rgb(3, 172, 8);
+  }
+.containerframe{
+    /* border-style: solid;
+    border-color:-webkit-linear-gradient(45deg, #0c5838 80%); */
+    border-radius: 50px;
+    margin-left: 400px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-top: 50px;
+    box-sizing: 45px;
+    align-items: center;
+    /* background-color: rgba(239, 116, 116, 1);
+    background-color: #561b6e;
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+    to right,
+    var(--grey),
+    var(--grey1),
+    var(--purple),
+    var(--grey)
+  );
+  background-size: 200%; */
+  
+  background-color: black;
+
+  justify-content: center;
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+  
+  to {
+    background-position: -200% center;
+  }
+}
+
+.containerfull{
+/* background-color:chocolate ; */
+/* background: url("https://wallpaperaccess.com/full/741514.jpg"); */
+  background-image: url("C:\Users\HP\OneDrive\Pictures\Saved Pictures\shubham-dhage-gMpaDLFwNCE-unsplash.jpg");
+  background-image: url("C:\Users\HP\OneDrive\Pictures\Saved Pictures\milad-fakurian-ICTjWYzpoc0-unsplash.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+#b1{
+    justify-content: right;
+    background-color: black;
+    animation: background-pan 3s linear infinite;
+    background: #09009f;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
+
+  #b31{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500px;
+  }
+  .submit{
+      align-items: center;
+      justify-self: center;
+      padding-left: 300px;
+      padding-top: 15px;
+      font-size: large;
+  }
+
+  /* .containerframe:hover{
+    box-shadow: 0 0 50px 0px rgb(191, 101, 191);
+    transition: 0.4s;
+  } */
+  #b1:hover{
+    box-shadow: 0 0 20px 0px rgb(78, 12, 12);
+    /* transition: 0.4s; */
+    scale: 1.2;
+    transition: opacity 40 ms ease;
+  }
+  .opcurse{
+    cursor:pointer;
+  }
+  .outp{
+    margin-top: 80px;
+    color: indigo;
+    cursor:pointer;
+    transition: opacity 40 ms ease;
+  }
+  .outp:hover{
+    box-shadow: 0 0 20px 0px rgb(78, 12, 12);
+    transition: 0.4s;
+    scale: 1.2;
+    transition: opacity 40 ms ease;
+  }
+  .inside{
+    /* display: block; */
+    /*padding-left: 50px;
+    margin-left: 450px;*/
+    /* width: 300px; */
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 5px;
+    border-color:blueviolet;
+    /* background-color: whitesmoke; */
+    /* cursor: pointer; */
+    transition: opacity 40 ms ease;
+  }
+
+  .co > h1{
+    animation: background-pan 10s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--green),
+      var(--black),
+      var(--green)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 1.9rem;
+    padding-left: 5rem;
+
+  }
+
+  .outpp{
+    margin-left: 25rem;
+    
+  }
+.outpp h1{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    animation: background-pan 3s linear infinite;
+    background: -webkit-linear-gradient(35deg, #09009f,#00ff95 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.outpp h2{
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg,#d53003, #c56908 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0
+}
+#mi1{
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--redd),
+    var(--black),
+    var(--purple)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+#demo-simple-select-autowidth{
+  background-color: #00ff95;
+
+}
