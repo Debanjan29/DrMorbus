@@ -34,15 +34,6 @@ const router = createBrowserRouter([
       {
         path:"test/",
         element:<Testnew />,
-      },
-
-      {
-        path:"Test1",
-        element:<Test1/>,
-      },
-      {
-        path:"Testnew",
-        element:<Testnew/>,//Last edited Test Now Pg
       }
 
     ],

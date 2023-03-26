@@ -132,7 +132,7 @@ export default function Testnew() {
   'silver_like_dusting','small_dents_in_nails','inflammatory_nails','blister','red_sore_around_nose','yellow_crust_ooze'];
 
   const  op= options.map((item) =>
-           <MenuItem value={item}><class id="mi1">{item}</class></MenuItem>);
+           <MenuItem value={item} id="mi2"><class id="mi1">{item}</class></MenuItem>);
 
   return (
     <>

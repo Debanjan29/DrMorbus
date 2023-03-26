@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway&family=Roboto&display=swap');
 
   :root {  
     --purple: rgb(123, 31, 162);
@@ -12,6 +12,7 @@
     --grey1:rgb(70, 70, 79);
     --green:rgb(3, 172, 8);
   }
+
 .containerframe{
     /* border-style: solid;
     border-color:-webkit-linear-gradient(45deg, #0c5838 80%); */
@@ -58,8 +59,8 @@
   background-size: cover;
   height: 100%;
   width: 100%;
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #b1{
@@ -167,7 +168,7 @@
     margin: 0
 }
 #mi1{
-  animation: background-pan 3s linear infinite;
+  animation: background-pan 15s linear infinite;
   background: linear-gradient(
     to right,
     var(--purple),
@@ -180,6 +181,38 @@
   -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
+#mi2{
+  background-color: black;
+}
+#mi2:hover{
+  transition: 0.8ms;
+  transform:translateY(3);
+}
+
+/* #mi2:hover > #mi1{
+  opacity: 0.3;
+}
+
+#mi1:hover > #mi2:hover{
+  opacity: 1;
+} */
+#mi1 :hover {
+  background-color: #022e4c;
+  color: azure;
+  font-weight: bold;
+  transition: 0.8ms;
+  transform: scale(1.1);
+  /* opacity: 0.2; */
+}
+#mi1 a.active {
+  background: hsl(224, 98%, 58%);
+  color: white;
+}
+
+#mi1 a.pending {
+  color: hsl(224, 98%, 58%);
+}
+
 #demo-simple-select-autowidth{
   background-color: #00ff95;
 
