@@ -4,7 +4,7 @@ function Name(props) {
   const [user, setUser] = useState([]);
 
   const fetchData = () => {
-      axios.get(`http://localhost:5000/symptom/${props.name}`)
+      axios.get(`https://drmorbusbe.onrender.com/symptom/${props.name}`)
       .then(response => {
         setUser(response.data)
         console.log(user)

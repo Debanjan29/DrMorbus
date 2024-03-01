@@ -11,7 +11,7 @@ let symptoms = [];
 
 
 export default function SelectOtherProps() {
-  let url = "http://localhost:5000"
+  let url = "https://drmorbusbe.onrender.com"
   const submitClick=()=>{
     let SubmitArr=[...new Set(symptoms)];//...= Spread Operator    new Set(arr) is a new array containing the values of the initial array but duplicates removed . Spread Operator then converts it back to array
     symptoms=SubmitArr;

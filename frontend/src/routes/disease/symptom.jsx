@@ -8,7 +8,7 @@ function Symptom(props) {
     //       .then((response) => response.json())
     //       .then((data) => setUser(data));
     
-      axios.get(`http://localhost:5000/symptom/${props.name}`)
+      axios.get(`https://drmorbusbe.onrender.com/symptom/${props.name}`)
       .then(response => {
         setUser(response.data)
         console.log(user)
